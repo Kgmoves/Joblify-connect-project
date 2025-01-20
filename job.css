@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+navbar {
+    position: relative;
+    padding-left: 20%;
+    word-spacing: 10px;
+    margin-top: 1%;
+}
+.nav-link {
+    color: #64748b;
+    text-decoration: none;
+    font-weight: bold;
+    /* cursor: pointer; Not working*/
+}
+.nav-banner {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #2196f3;
+    background-color: white;
+}
+.heading-container {
+    padding-left: 20%;
+    margin-top: 3%;
+    font-size: 40px;
+}
+#intro {
+    font-size: 20px;
+    margin-top: -2%;
+}
+#Get-started-btn {
+    padding-left: 20%;
+    font-size: 35px;
+    margin-top: -1%;
+}
+button {
+    border: none;
+    border-radius: 16px;
+    color: white;
+    background-color: #3D58F3;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: 17px;
+    cursor: pointer;
+ /* Give button ':hover' effect   */
+}
+.summary-imgs {
+ padding-top: 7%;
+ padding-left: 12%;
+}
+
+#img-1 {
+    padding-left: 14%;
+    position: relative;
+    right: 3%;
+}
+#img-2 {
+    padding-left: 10%;
+    position: relative;
+    left: 1%;
+}
+#img-3 {
+    padding-left: 16%;
+    position: relative;
+    left: 6%;
+}
+#summaries {
+    display: flex;
+}
+#first-sum {
+    margin-left: 18%;
+    position: relative;
+}
+#second-sum {
+    padding-left: 6%;
+    position: relative;
+}
+#third-sum {
+    padding-left: 2%;
+    position: relative;
+}
+h4 {
+    color: #2196f3;
+}
+#footer-container {
+    background-color: #E2E8F0;
+}
+#footer-content {
+    margin-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    margin-right: 15%;
+}
+#footer-prg {
+ color: #475569;
+}
+#more-about {
+    display: flex;
+}
+#footer-container {
+    display: flex;
+}
+.footer-link {
+    color: #64748b;
+    list-style-type: none; 
+    font-weight: bold;
+    padding-top: 25%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+ .footer-link a {
+    text-decoration: none;
+    color: #475569;
+ }
+ #copyright {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 45%;
+    color: #475569;
+ }
+ /* #footer-line {
+    color: #64748b;
+} */
