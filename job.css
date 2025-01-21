@@ -7,23 +7,30 @@ body {
     font-family: Roboto, sans-serif;
 }
 .navbar {
-    position: relative;
-    padding-left: 20%;
-    word-spacing: 10px;
-    margin-top: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .nav-link {
+    margin-right: 10px;
     color: #64748b;
     text-decoration: none;
     font-weight: bold;
     /* cursor: pointer; Not working*/
 }
+.nav-link:last-child {
+    margin-right: 0;
+}
 .nav-banner {
-    position: fixed;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
-    border-bottom: 2px solid #2196f3;
+    padding: 0 2%;
     background-color: white;
+    border-bottom: 2px solid #E2E8F0;
 }
 .heading-container {
     padding-left: 20%;
@@ -51,6 +58,9 @@ button {
     font-size: 17px;
     cursor: pointer;
  /* Give button ':hover' effect   */
+}
+button:hover {
+    background-color: #0428f3;
 }
 .summary-imgs {
  padding-top: 7%;
@@ -127,6 +137,3 @@ h4 {
     margin-left: 45%;
     color: #475569;
  }
- /* #footer-line {
-    color: #64748b;
-} */
